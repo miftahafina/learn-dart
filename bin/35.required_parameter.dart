@@ -3,5 +3,5 @@ void sayHello({required String firstName, String lastName = 'Kosong'}) {
 }
 
 void main() {
-  sayHello(lastName: 'Miftah'); // error karena tidak ada argument untuk parameter firstname
+  // sayHello(lastName: 'Miftah'); // error karena tidak ada argument untuk parameter firstname
 }
